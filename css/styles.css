@@ -9,7 +9,6 @@ a{
     cursor: pointer;
 }
 
-
 .nav-itens{
     background-color: rgba(255,160,132,0.7);
     height: 15vh;
@@ -22,7 +21,7 @@ a{
 .logo .logo-img{
     position:relative;
     margin: 0;
-    width: 8vw;
+    width: 9vw;
 }
 
 .nav-itens ul{
@@ -83,6 +82,15 @@ a{
     background-color: rgba(255,160,132,0.7);
 }
 
+@media (max-width:1025px){
+    .nav-itens .logo .logo-img{
+        width: 20vw;
+    }
+}
+
+
+
+
 
 @media (max-width:480px) {
     .nav-itens{
@@ -91,7 +99,7 @@ a{
     }
     
     .nav-itens .logo .logo-img{
-        width: 9vh;
+        width: 21vh;
     }
 
     .nav-itens ul{
@@ -99,8 +107,6 @@ a{
         flex-direction: column;
         margin: 5px;
         margin: 0;
-
-
     }
     
     .nav-itens ul li{
@@ -115,5 +121,11 @@ a{
         width: 40%;
     }
 
+    .car-imgs:hover{
+        transform: scale(1.2);
+    }
 
+    #copyright-text{
+        font-size: 0.8rem;
+    }
 }
